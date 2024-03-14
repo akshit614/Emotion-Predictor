@@ -1,5 +1,10 @@
 from flask import Flask, render_template, request
 import pickle
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+
 
 filename = 'my_randomforest_model.pkl'
 clf = pickle.load(open(filename, 'rb'))
