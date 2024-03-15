@@ -1,2 +1,8 @@
 Flask==3.0.2
+scikit-learn==1.4.1.post1
+pandas==1.5.3
+matplotlib==3.7.1
 Werkzeug==3.0.1
+Python==3.10.7
+Spacy==3.7.4
+Seaborn==0.13.1
