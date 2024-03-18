@@ -5,5 +5,4 @@ seaborn
 matplotlib
 pandas 
 numpy
-pickle
 
